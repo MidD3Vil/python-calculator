@@ -11,6 +11,9 @@ Por mais simples e não muito prática, esta calculadora conta com cálculos de:
 --> DIVISÃO
 
 Para baixar:
+
 git clone https://github.com/drmidnightytb/python-calculator/tree/main
+
+cd
 
 Bom, é isso. Espero que gostem...
