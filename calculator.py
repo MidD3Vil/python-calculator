@@ -1,6 +1,8 @@
 import time
 
 print(' ')
+print(' ')
+print(' ')
 print('Calculadora Simples em Python: ')
 time.sleep(1)
 print('Tool by Dr Midnight')
