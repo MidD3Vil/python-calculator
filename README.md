@@ -6,4 +6,7 @@ Por mais simples e não muito prática, esta calculadora conta com cálculos de:
 --> MULTIPLICAÇÃO
 --> DIVISÃO
 
+Para baixar:
+git clone https://github.com/drmidnightytb/python-calculator
+
 Bom, é isso. Espero que gostem...
