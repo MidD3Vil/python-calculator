@@ -1,4 +1,6 @@
 # python-calculator
+---------------------------------------------------------------------------
+
 Esta é uma ferramenta de cálculo simples, feita totalmente em python que serve mais para estudo pessoal.
 Por mais simples e não muito prática, esta calculadora conta com cálculos de:
 
@@ -10,10 +12,16 @@ Por mais simples e não muito prática, esta calculadora conta com cálculos de:
 
 --> DIVISÃO
 
+Bom, é isso. Espero que gostem...
+
+---------------------------------------------------------------------------
+
 Para baixar:
 
-git clone https://github.com/drmidnightytb/python-calculator/tree/main
+git clone https://github.com/drmidnightytb/python-calculator
 
-cd
+cd python-calculator
 
-Bom, é isso. Espero que gostem...
+python3 calculator.py
+
+---------------------------------------------------------------------------
