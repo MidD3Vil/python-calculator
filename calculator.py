@@ -39,3 +39,14 @@ if operation == '1':
 elif operation == '2':
     print('O Resultado da Subtração de {} menos {}'.format(pri, seg))
     print('= {}'.format(sub))
+    
+elif operation == '3':
+    print('O Resultado da Multiplicação de {} e {}'.format(pri, seg))
+    print('= {}'.format(multi))
+
+elif operation == '4':
+    print('O Resultado da Divisão de {} e {}'.format(pri, seg))
+    print('= {}'.format(divi))
+
+else:
+    print('Você não selecionou uma operação válida :(')
