@@ -18,7 +18,9 @@ print('04 - para Divisão')
 time.sleep(0.3)
 print('05 - para Potenciação')
 time.sleep(0.3)
-print('06 - para Todos')
+print('06 - para Porcentagem')
+time.sleep(0.3)
+print('07 - para Todos')
 time.sleep(0.3)
 print(' ')
 operation = input('Escolha o Tipo de Cálculo: ')
@@ -33,6 +35,10 @@ sub = pri - seg
 multi = pri * seg
 divi = pri / seg
 raiz = pri ** seg
+s1 = seg / 100
+s2 = s1 * pri
+porcenA = pri + s2
+porcenB = pri - s2
 time.sleep(0.3)
 print('Aguarde...')
 time.sleep(2)
@@ -58,6 +64,12 @@ elif operation == '5':
     print('= {}'.format(raiz))
 
 elif operation == '6':
+    print('O Valor do produto com o acrescimo de {}%'.format(seg))
+    print('= {}'.format(porcenA))
+    print('O valor do produto com o desconto de {}%'.format(seg))
+    print('= {}'.format(porcenB))
+
+elif operation == '7':
     print('O Resultado da Soma de {} mais {}'.format(pri, seg))
     print('= {}'.format(soma))
     print(' ')
@@ -72,5 +84,9 @@ elif operation == '6':
     print('')
     print('O Resultado da Potenciação de {} elevado a {}'.format(pri, seg))
     print('= {}'.format(raiz))
+    print('O Valor do produto com o acrescimo de {}%'.format(seg))
+    print('= {}'.format(porcenA))
+    print('O valor do produto com o desconto de {}%'.format(seg))
+    print('= {}'.format(porcenB))
 else:
     print('Você não selecionou uma operação válida :(')
