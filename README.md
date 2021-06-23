@@ -14,6 +14,8 @@ Por mais simples e não muito prática, esta calculadora conta com cálculos de:
 
 --> POTENCIAÇÃO ( raiz )
 
+--> PORCENTAGEM 
+
 Bom, é isso. Espero que gostem...
 
 ---------------------------------------------------------------------------
