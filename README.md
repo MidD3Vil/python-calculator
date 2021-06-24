@@ -20,11 +20,13 @@ Bom, é isso. Espero que gostem...
 
 ---------------------------------------------------------------------------
 
+```
 💻 Termux
 $ pkg upgrade -y && pkg update -y
 $ pkg install git python figlet -y
 $ git clone https://github.com/drmidnightytb/python-calculator
 $ cd python-calculator
 $ python3 python-calculator
+```
 
 ---------------------------------------------------------------------------
