@@ -18,9 +18,11 @@ print('04 - para Divisão')
 time.sleep(0.3)
 print('05 - para Potenciação')
 time.sleep(0.3)
-print('06 - para Porcentagem')
+print('06 - para Raiz')
 time.sleep(0.3)
-print('07 - para Todos')
+print('07 - para Porcentagem')
+time.sleep(0.3)
+print('08 - para Todos')
 time.sleep(0.3)
 print(' ')
 operation = input('Escolha o Tipo de Cálculo: ')
@@ -34,7 +36,8 @@ soma = pri + seg
 sub = pri - seg
 multi = pri * seg
 divi = pri / seg
-raiz = pri ** seg
+pote = pri ** seg
+raiz = pri ** 0.5
 s1 = seg / 100
 s2 = s1 * pri
 porcenA = pri + s2
@@ -70,10 +73,16 @@ elif operation == '4':
 elif operation == '5':
     print('------------------------------------------------\n')
     print('O Resultado da Potencição de {} elevado a {}'.format(pri, seg))
-    print('= {}\n'.format(raiz))
+    print('= {}\n'.format(pote))
     print('------------------------------------------------')
 
 elif operation == '6':
+    print('------------------------------------------------\n')
+    print('O Resultado da raiz {} de {}'.format(seg, pri))
+    print('= {}\n'.format(raiz))
+    print('------------------------------------------------\n')
+
+elif operation == '7':
     print('------------------------------------------------\n')
     print('O Valor do produto com o acrescimo de {}%'.format(seg))
     print('= {}'.format(porcenA))
@@ -81,7 +90,7 @@ elif operation == '6':
     print('= {}\n'.format(porcenB))
     print('------------------------------------------------')
 
-elif operation == '7':
+elif operation == '8':
     print('------------------------------------------------\n')
     print('O Resultado da Soma de {} mais {}'.format(pri, seg))
     print('= {}\n'.format(soma))
@@ -96,6 +105,9 @@ elif operation == '7':
     print('= {}\n'.format(divi))
     print('------------------------------------------------\n')
     print('O Resultado da Potenciação de {} elevado a {}'.format(pri, seg))
+    print('= {}\n'.format(pote))
+    print('------------------------------------------------\n')
+    print('O Resultado da raiz {} de {}'.format(seg, pri))
     print('= {}\n'.format(raiz))
     print('------------------------------------------------\n')
     print('O Valor do produto com o acrescimo de {}%'.format(seg))
