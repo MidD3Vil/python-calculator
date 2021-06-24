@@ -18,6 +18,8 @@ Bom, é isso. Espero que gostem...
 
 <h2 align="center">🖥 Install</h2>
 
+---------------------------------------------------------------------------
+
 💻 Termux
 $ pkg upgrade -y && pkg update -y
 $ pkg install git python figlet -y
