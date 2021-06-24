@@ -84,6 +84,8 @@ elif operation == '6':
 
 elif operation == '7':
     print('------------------------------------------------\n')
+    print('O valor de {}% sobre {}'.format(seg, pri))
+    print('= {}\n'.format(s2))
     print('O Valor do produto com o acrescimo de {}%'.format(seg))
     print('= {}'.format(porcenA))
     print('O valor do produto com o desconto de {}%'.format(seg))
@@ -110,6 +112,8 @@ elif operation == '8':
     print('O Resultado da raiz {} de {}'.format(seg, pri))
     print('= {}\n'.format(raiz))
     print('------------------------------------------------\n')
+    print('O valor de {}% sobre {}'.format(seg, pri))
+    print('= {}\n'.format(s2))
     print('O Valor do produto com o acrescimo de {}%'.format(seg))
     print('= {}'.format(porcenA))
     print('O valor do produto com o desconto de {}%'.format(seg))
