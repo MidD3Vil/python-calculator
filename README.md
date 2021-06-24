@@ -12,7 +12,9 @@ Por mais simples e não muito prática, esta calculadora conta com cálculos de:
 
 --> DIVISÃO
 
---> POTENCIAÇÃO ( raiz )
+--> POTENCIAÇÃO 
+
+--> RAIZ
 
 --> PORCENTAGEM 
 
