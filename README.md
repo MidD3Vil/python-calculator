@@ -1,4 +1,4 @@
-# python-calculator
+# <h2 align="center">🖥 Python-Calculator</h2>
 ---------------------------------------------------------------------------
 
 Esta é uma ferramenta de cálculo simples, feita totalmente em python que serve mais para estudo pessoal.
