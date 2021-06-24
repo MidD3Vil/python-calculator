@@ -1,4 +1,5 @@
 import time
+import pygame
 
 print(' ')
 print(' ')
@@ -44,7 +45,10 @@ porcenA = pri + s2
 porcenB = pri - s2
 time.sleep(0.3)
 print('Aguarde...')
-time.sleep(2)
+pygame.mixer.init()
+pygame.mixer.music.load('tec.mp3')
+pygame.mixer.music.play()
+while(pygame.mixer.music.get_busy()):pass
 print(' ')
 if operation == '1':
     print('------------------------------------------------\n')
