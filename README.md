@@ -4,30 +4,25 @@
 Esta é uma ferramenta de cálculo simples, feita totalmente em python que serve mais para estudo pessoal.
 Por mais simples e não muito prática, esta calculadora conta com cálculos de:
 
---> ADIÇÃO
-
---> SUBTRAÇÃO
-
---> MULTIPLICAÇÃO
-
---> DIVISÃO
-
---> POTENCIAÇÃO 
-
---> RAIZ
-
---> PORCENTAGEM 
+- [x] ADIÇÃO
+- [x] SUBTRAÇÃO
+- [x] MULTIPLICAÇÃO
+- [x] DIVISÃO
+- [x] POTENCIAÇÃO 
+- [x] RAIZ
+- [x] PORCENTAGEM
 
 Bom, é isso. Espero que gostem...
 
 ---------------------------------------------------------------------------
 
-Para baixar:
+<h2 align="center">🖥 Install</h2>
 
-git clone https://github.com/drmidnightytb/python-calculator
-
-cd python-calculator
-
-python3 calculator.py
+💻 Termux
+$ pkg upgrade -y && pkg update -y
+$ pkg install git python figlet -y
+$ git clone https://github.com/drmidnightytb/python-calculator
+$ cd python-calculator
+$ python3 python-calculator
 
 ---------------------------------------------------------------------------
