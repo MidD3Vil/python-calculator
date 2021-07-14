@@ -64,41 +64,41 @@ while restart == 'S':
     sleep(.3)
 
     def somax():
-        print('\n{}O Resultado da Soma de {} mais {}'.format(redp, pri, seg))
-        print('= {}'.format(soma))
+        print('\n{}O Resultado da Soma de {}{} {}mais {}{}{}'.format(redp, yel, pri, redp, yel, seg, esc))
+        print('{}= {}{}'.format(redp, yel, soma))
         print('{}='.format(rox) * 45)
     def subx():
-        print('\n{}O Resultado da Subtração de {} menos {}'.format(redp, pri, seg))
-        print('= {}'.format(sub))
+        print('\n{}O Resultado da Subtração de {}{} {}menos {}{}{}'.format(redp, yel, pri, redp, yel, seg, esc))
+        print('{}= {}{}'.format(redp, yel, sub))
         print('{}='.format(rox) * 45)
 
     def multix():
-        print('\n{}O Resultado da Multiplicação de {} vezes {}'.format(redp, pri, seg))
-        print('= {}'.format(multi))
+        print('\n{}O Resultado da Multiplicação de {}{} {}vezes {}{}{}'.format(redp, yel, pri, redp, yel, seg, esc))
+        print('{}= {}{}'.format(redp, yel, multi))
         print('{}='.format(rox) * 45)
 
     def divix():
-        print('\n{}O Resultado da Divisão de {} dividido por {}'.format(redp, pri, seg))
-        print('= {}'.format(divi))
+        print('\n{}O Resultado da Divisão de {}{} {}dividido por {}{}{}'.format(redp, yel, pri, redp, yel, seg, esc))
+        print('{}= {}{}'.format(redp, yel, divi))
         print('{}='.format(rox) * 45)
 
     def potex():
-        print('\n{}O Resultado da Potencição de {} elevado a {}'.format(redp, pri, seg))
-        print('= {}'.format(pote))
+        print('\n{}O Resultado da Potencição de {}{} {}elevado a {}{}{}'.format(redp, yel, pri, redp, yel, seg, esc))
+        print('{}= {}{}'.format(redp, yel, pote))
         print('{}='.format(rox) * 45)
 
     def raizx():
-        print('\n{}O Resultado da raiz {} de {}'.format(redp, pri, seg))
-        print('= {}'.format(raiz))
+        print('\n{}O Resultado da raiz {}{} {}de {}{}{}'.format(redp, yel, pri, redp, yel, seg, esc))
+        print('{}= {}{}'.format(redp, yel, raiz))
         print('{}='.format(rox) * 45)
 
     def porcenx():
-        print('\n{}O valor de {}% sobre {}'.format(redp, pri, seg))
-        print('= {}\n'.format(s2))
-        print('{}O Valor do produto com o acrescimo de {}%'.format(redp, seg))
-        print('= {}'.format(porcenA))
-        print('O valor do produto com o desconto de {}%'.format(seg))
-        print('= {}'.format(porcenB))
+        print('\n{}O valor de {}{}% {}sobre {}{}{}'.format(redp, yel, pri, redp, yel, seg, esc))
+        print('{}= {}{}\n'.format(redp, yel, s2))
+        print('{}O Valor do produto com o acrescimo de {}{}%{}'.format(redp, yel, seg, esc))
+        print('{}= {}{}'.format(redp, yel, porcenA))
+        print('{}O valor do produto com o desconto de {}{}%{}'.format(redp, yel, seg, esc))
+        print('{}= {}{}'.format(redp, yel, porcenB))
         print('{}='.format(rox) * 45)
 
     def allx():
@@ -136,4 +136,3 @@ Sim.
 Não.
 {}R: '''.format(esc, invert, esc, redp))).strip().upper()[0]
     print('')
-
