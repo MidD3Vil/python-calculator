@@ -15,7 +15,10 @@ restart = 'S'
 print('')
 
 while restart == 'S':
-    os.system('cls')
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
     print('{}-=-'.format(redp) * 10)
     sleep(.3)
     print('Calculadora Simples em Python: ')
