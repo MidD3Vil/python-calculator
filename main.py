@@ -11,11 +11,11 @@ rox = '\033[35m'
 roxp = '\033[1;35m'
 invert = '\033[7m'
 
-os.system('cls')
 restart = 'S'
 print('')
 
 while restart == 'S':
+    os.system('cls')
     print('{}-=-'.format(redp) * 10)
     sleep(.3)
     print('Calculadora Simples em Python: ')
@@ -132,6 +132,13 @@ while restart == 'S':
     else:
         print('Você não selecionou uma operação válida :(')
     restart = str(input('''\n{}{}Deseja realizar outra conta?{} 
+Sim.
+Não.
+{}R: '''.format(esc, invert, esc, redp))).strip().upper()[0]
+
+    while restart not in 'SN':
+        sleep(.3)
+        restart = str(input('''\n{}{}Digite um dado válido. Deseja realizar outra conta?{} 
 Sim.
 Não.
 {}R: '''.format(esc, invert, esc, redp))).strip().upper()[0]
